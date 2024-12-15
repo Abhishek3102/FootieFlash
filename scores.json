@@ -1,0 +1,611 @@
+{
+    "featuredEvents": [
+        {
+            "tournament": {
+                "name": "Primera Division Femenina",
+                "slug": "liga-f",
+                "category": {
+                    "name": "Spain",
+                    "slug": "spain",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 32,
+                    "flag": "spain",
+                    "alpha2": "ES"
+                },
+                "uniqueTournament": {
+                    "name": "Liga F",
+                    "slug": "liga-f",
+                    "primaryColorHex": "#5c9cd4",
+                    "secondaryColorHex": "#f7a600",
+                    "category": {
+                        "name": "Spain",
+                        "slug": "spain",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 32,
+                        "flag": "spain",
+                        "alpha2": "ES"
+                    },
+                    "userCount": 13932,
+                    "id": 1127,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 3,
+                "isLive": false,
+                "id": 3739
+            },
+            "customId": "OhGsjiG",
+            "status": {
+                "code": 6,
+                "description": "1st half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "Valencia",
+                "slug": "valencia",
+                "shortName": "Valencia",
+                "gender": "F",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 3270,
+                "nameCode": "VCF",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 77909,
+                "entityType": "team",
+                "teamColors": {
+                    "primary": "#ffffff",
+                    "secondary": "#000000",
+                    "text": "#000000"
+                }
+            },
+            "awayTeam": {
+                "name": "Barcelona",
+                "slug": "barcelona",
+                "shortName": "Barcelona",
+                "gender": "F",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 288287,
+                "nameCode": "FCB",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 77889,
+                "entityType": "team",
+                "teamColors": {
+                    "primary": "#154284",
+                    "secondary": "#9d1009",
+                    "text": "#9d1009"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ru": "ФК Барселона"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "awayScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "id": 12716968,
+            "startTimestamp": 1734260400,
+            "slug": "valencia-barcelona",
+            "finalResultOnly": false
+        },
+        {
+            "tournament": {
+                "name": "Bulgarian Cup",
+                "slug": "bulgarian-cup",
+                "category": {
+                    "name": "Bulgaria",
+                    "slug": "bulgaria",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 78,
+                    "flag": "bulgaria",
+                    "alpha2": "BG"
+                },
+                "uniqueTournament": {
+                    "name": "Bulgarian Cup",
+                    "slug": "bulgarian-cup",
+                    "primaryColorHex": "#de9f1f",
+                    "secondaryColorHex": "#20571f",
+                    "category": {
+                        "name": "Bulgaria",
+                        "slug": "bulgaria",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 78,
+                        "flag": "bulgaria",
+                        "alpha2": "BG"
+                    },
+                    "userCount": 2912,
+                    "id": 365,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 0,
+                "isLive": false,
+                "id": 377
+            },
+            "customId": "CpbsQec",
+            "status": {
+                "code": 6,
+                "description": "1st half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "Lokomotiv Sofia",
+                "slug": "lokomotiv-sofia",
+                "shortName": "Lokomotiv Sofia",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 5173,
+                "nameCode": "LSO",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 3277,
+                "entityType": "team",
+                "teamColors": {
+                    "primary": "#ff0000",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "لوكوموتيف صوفيا",
+                        "ru": "Локомотив София"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Botev Plovdiv",
+                "slug": "botev-plovdiv",
+                "shortName": "Botev Plovdiv",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 12421,
+                "nameCode": "BOT",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 5241,
+                "entityType": "team",
+                "teamColors": {
+                    "primary": "#fff200",
+                    "secondary": "#fff200",
+                    "text": "#fff200"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "بوتيف بلوفديف",
+                        "ru": "Ботев Пловдив"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 0,
+                "display": 0
+            },
+            "awayScore": {
+                "current": 3,
+                "display": 3
+            },
+            "id": 13096755,
+            "startTimestamp": 1734260400,
+            "slug": "botev-plovdiv-lokomotiv-sofia",
+            "finalResultOnly": false
+        },
+        {
+            "tournament": {
+                "name": "Vrouwen Eredivisie",
+                "slug": "vrouwen-eredivisie",
+                "category": {
+                    "name": "Netherlands",
+                    "slug": "netherlands",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 35,
+                    "flag": "netherlands",
+                    "alpha2": "NL"
+                },
+                "uniqueTournament": {
+                    "name": "Vrouwen Eredivisie",
+                    "slug": "vrouwen-eredivisie",
+                    "primaryColorHex": "#0758a1",
+                    "secondaryColorHex": "#253174",
+                    "category": {
+                        "name": "Netherlands",
+                        "slug": "netherlands",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 35,
+                        "flag": "netherlands",
+                        "alpha2": "NL"
+                    },
+                    "userCount": 2353,
+                    "id": 2123,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 0,
+                "isLive": false,
+                "id": 47098
+            },
+            "customId": "ipwbskpwb",
+            "status": {
+                "code": 6,
+                "description": "1st half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "SC Heerenveen",
+                "slug": "sc-heerenveen",
+                "shortName": " SC Heerenveen",
+                "gender": "F",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 880,
+                "nameCode": "HEE",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 178258,
+                "entityType": "team",
+                "teamColors": {
+                    "primary": "#ffffff",
+                    "secondary": "#000099",
+                    "text": "#000099"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "هيرينفين"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Ajax",
+                "slug": "ajax",
+                "shortName": "Ajax",
+                "gender": "F",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 11095,
+                "nameCode": "AJA",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 178260,
+                "entityType": "team",
+                "teamColors": {
+                    "primary": "#bb002b",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ru": "АФК Аякс"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 1,
+                "display": 1,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "awayScore": {
+                "current": 1,
+                "display": 1,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "id": 12585813,
+            "startTimestamp": 1734261300,
+            "slug": "ajax-sc-heerenveen",
+            "finalResultOnly": false
+        },
+        {
+            "tournament": {
+                "name": "Eredivisie",
+                "slug": "eredivisie",
+                "category": {
+                    "name": "Netherlands",
+                    "slug": "netherlands",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 35,
+                    "flag": "netherlands",
+                    "alpha2": "NL"
+                },
+                "uniqueTournament": {
+                    "name": "Eredivisie",
+                    "slug": "eredivisie",
+                    "primaryColorHex": "#292766",
+                    "secondaryColorHex": "#7c79c3",
+                    "category": {
+                        "name": "Netherlands",
+                        "slug": "netherlands",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 35,
+                        "flag": "netherlands",
+                        "alpha2": "NL"
+                    },
+                    "userCount": 175047,
+                    "id": 37,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 455,
+                "isLive": false,
+                "id": 39
+            },
+            "customId": "YibsEjb",
+            "status": {
+                "code": 6,
+                "description": "1st half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "FC Utrecht",
+                "slug": "fc-utrecht",
+                "shortName": "Utrecht",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 54853,
+                "nameCode": "FCU",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 2948,
+                "entityType": "team",
+                "teamColors": {
+                    "primary": "#ff0000",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "إف سي أوتريخت",
+                        "ru": "Утрехт"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Go Ahead Eagles",
+                "slug": "go-ahead-eagles",
+                "shortName": "GA Eagles",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 26246,
+                "nameCode": "GAE",
+                "national": false,
+                "type": 0,
+                "id": 2979,
+                "entityType": "team",
+                "teamColors": {
+                    "primary": "#ffcc00",
+                    "secondary": "#ff0000",
+                    "text": "#ff0000"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "جو اهد ايجلز",
+                        "ru": "Гоу Эхед Иглз"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 1,
+                "display": 1,
+                "period1": 1,
+                "normaltime": 1
+            },
+            "awayScore": {
+                "current": 1,
+                "display": 1,
+                "period1": 1,
+                "normaltime": 1
+            },
+            "hasXg": true,
+            "id": 12448260,
+            "startTimestamp": 1734261300,
+            "slug": "go-ahead-eagles-fc-utrecht",
+            "finalResultOnly": false
+        },
+        {
+            "tournament": {
+                "name": "Serie A",
+                "slug": "serie-a",
+                "category": {
+                    "name": "Italy",
+                    "slug": "italy",
+                    "sport": {
+                        "name": "Football",
+                        "slug": "football",
+                        "id": 1
+                    },
+                    "id": 31,
+                    "flag": "italy",
+                    "alpha2": "IT"
+                },
+                "uniqueTournament": {
+                    "name": "Serie A",
+                    "slug": "serie-a",
+                    "primaryColorHex": "#09519e",
+                    "secondaryColorHex": "#008fd7",
+                    "category": {
+                        "name": "Italy",
+                        "slug": "italy",
+                        "sport": {
+                            "name": "Football",
+                            "slug": "football",
+                            "id": 1
+                        },
+                        "id": 31,
+                        "flag": "italy",
+                        "alpha2": "IT"
+                    },
+                    "userCount": 736676,
+                    "id": 23,
+                    "displayInverseHomeAwayTeams": false
+                },
+                "priority": 615,
+                "isLive": false,
+                "id": 33
+            },
+            "customId": "OdbsEeb",
+            "status": {
+                "code": 6,
+                "description": "1st half",
+                "type": "inprogress"
+            },
+            "homeTeam": {
+                "name": "Lecce",
+                "slug": "lecce",
+                "shortName": "Lecce",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 137105,
+                "nameCode": "LEC",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 2689,
+                "entityType": "team",
+                "teamColors": {
+                    "primary": "#f6ea00",
+                    "secondary": "#db2d1f",
+                    "text": "#db2d1f"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "نادي ليتشي",
+                        "ru": "Лечче"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "awayTeam": {
+                "name": "Monza",
+                "slug": "monza",
+                "shortName": "Monza",
+                "gender": "M",
+                "sport": {
+                    "name": "Football",
+                    "slug": "football",
+                    "id": 1
+                },
+                "userCount": 121093,
+                "nameCode": "MON",
+                "disabled": false,
+                "national": false,
+                "type": 0,
+                "id": 2729,
+                "entityType": "team",
+                "teamColors": {
+                    "primary": "#d71742",
+                    "secondary": "#ffffff",
+                    "text": "#ffffff"
+                },
+                "fieldTranslations": {
+                    "nameTranslation": {
+                        "ar": "اي سي مونزا",
+                        "ru": "Монца"
+                    },
+                    "shortNameTranslation": {}
+                }
+            },
+            "homeScore": {
+                "current": 1,
+                "display": 1,
+                "period1": 1,
+                "normaltime": 1
+            },
+            "awayScore": {
+                "current": 0,
+                "display": 0,
+                "period1": 0,
+                "normaltime": 0
+            },
+            "hasXg": true,
+            "id": 12504660,
+            "startTimestamp": 1734262200,
+            "slug": "monza-lecce",
+            "finalResultOnly": false
+        }
+    ]
+}
