@@ -1,0 +1,249 @@
+/* General styling */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin: 20px 0 10px;
+    color: #007bff;
+  }
+  
+  .cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .match-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: calc(50% - 10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .match-card:hover {
+    transform: scale(1.03);
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .team-name {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .team-score {
+    font-size: 22px;
+    color: #28a745;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  .versus {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #555;
+  }
+  
+  
+  .league-section {
+    margin-bottom: 30px;
+  }
+  
+  .league-name {
+    font-size: 20px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Loading and no matches message */
+  /* .loading, .no-matches {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  } */
+  
+  /* Responsive styling */
+  /* @media (max-width: 768px) {
+    .match-card {
+      width: 100%; /* Full-width cards on smaller screens */
+    /* }
+  
+    .team {
+      flex-direction: column;
+    }
+  
+    .team-name {
+      text-align: center;
+      margin-bottom: 5px;
+    }
+  
+    .team-score {
+      text-align: center;
+    }
+  } */
+
+  body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #1c1c1c, #0d1117);
+    color: #fff;
+  }
+  
+  .container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ffdb58;
+  }
+  
+  .league-section {
+    margin-bottom: 30px;
+  }
+  
+  .league-name {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    text-align: center;
+    color: #ff6347;
+  }
+  
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  
+  .match-card {
+    background: #1e293b;
+    color: #f8f8f8;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+  }
+  
+  .match-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .team-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .team-name {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffd700;
+  }
+  
+  .team-score {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .separator {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ff4500;
+  }
+  
+  .loading, .no-matches {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
+  .mt-8 {
+    margin-top: 2rem;
+  }
+  
+  .bg-gray-800 {
+    background-color: #2d3748;
+  }
+  
+  .p-4 {
+    padding: 1rem;
+  }
+  
+  .rounded-lg {
+    border-radius: 0.5rem;
+  }
+  
+  .shadow-lg {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .gap-4 {
+    gap: 1rem;
+  }
+  
+  .font-bold {
+    font-weight: bold;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
