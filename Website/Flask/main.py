@@ -1,7 +1,10 @@
 from flask import Flask, jsonify, render_template, request
 import requests
+from flask_cors import CORS
+
 
 app = Flask(__name__)
+CORS(app)
 
 def fetch_live_scores():
     url = "https://api.sofascore.com/api/v1/sport/football/events/live"
