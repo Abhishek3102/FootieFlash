@@ -61,7 +61,8 @@ def get_match_details(match_id):
 
     return jsonify({"error": "Match details not found"}), 404
 
-if __name__ == '__main__':
-    app.run(debug=True)
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=80)
+
 
 
