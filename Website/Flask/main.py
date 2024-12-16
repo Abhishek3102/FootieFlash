@@ -6,21 +6,35 @@ app = Flask(__name__)
 def fetch_live_scores():
     url = "https://api.sofascore.com/api/v1/sport/football/events/live"
     headers = {"authority": "api.sofascore.com"}
-    response = requests.get(url, headers=headers)
-    data = response.json()
-    matches = []
-
-    for match in data.get('events', []):
-        matches.append({
-            "id": match['id'], 
-            "league": match['tournament']['name'],
-            "homeTeam": match['homeTeam']['name'],
-            "awayTeam": match['awayTeam']['name'],
-            "homeScore": match['homeScore']['current'],
-            "awayScore": match['awayScore']['current']
-        })
-
-    return matches
+    
+    try:
+        response = requests.get(url, headers=headers)
+        response.raise_for_status()
+        
+        data = response.json()
+        matches = []
+        
+        for match in data.get('events', []):
+            match_details = {
+                "id": match.get('id', 'Unknown'),
+                "league": match.get('tournament', {}).get('name', 'Unknown'),
+                "homeTeam": match.get('homeTeam', {}).get('name', 'Unknown'),
+                "awayTeam": match.get('awayTeam', {}).get('name', 'Unknown'),
+                "homeScore": match.get('homeScore', {}).get('current', 'N/A'),
+                "awayScore": match.get('awayScore', {}).get('current', 'N/A')
+            }
+            
+            if all(value != 'Unknown' for value in match_details.values()):
+                matches.append(match_details)
+        
+        return matches
+    
+    except requests.exceptions.RequestException as e:
+        print(f"Request error: {e}")
+        return []
+    except requests.exceptions.JSONDecodeError:
+        print("Failed to decode JSON response")
+        return []
 
 @app.route('/api/live-scores', methods=['GET'])
 def live_scores_api():
@@ -34,12 +48,13 @@ def live_scores_page():
 
 @app.route('/match/<match_id>', methods=['GET'])
 def get_match_details(match_id):
-    url = f"https://api.sofascore.com/api/v1/event/{match_id}/lineups"  
-    response = requests.get(url)
-    if response.status_code == 200:
+    url = f"https://api.sofascore.com/api/v1/event/{match_id}/lineups"
+    try:
+        response = requests.get(url)
+        response.raise_for_status()
+
         data = response.json()
 
-        # Extract players and positions
         home_team_players = []
         away_team_players = []
 
@@ -58,11 +73,13 @@ def get_match_details(match_id):
             "home": {"players": home_team_players},
             "away": {"players": away_team_players}
         })
-
-    return jsonify({"error": "Match details not found"}), 404
+    
+    except requests.exceptions.RequestException as e:
+        return jsonify({"error": f"Request error: {e}"}), 500
+    except requests.exceptions.JSONDecodeError:
+        return jsonify({"error": "Failed to decode JSON response"}), 500
+    except Exception as e:
+        return jsonify({"error": f"An error occurred: {str(e)}"}), 500
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=80)
-
-
-
